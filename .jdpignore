@@ -1,0 +1,15 @@
+# Common recommended patterns for Global
+# JavaFX libraries - jDeploy provides JavaFX runtime
+javafx
+com/sun/javafx
+com/sun/glass
+com/sun/prism
+/glass.dll
+/libglass.dylib
+/libglass.so
+/prism_*.dll
+/libprism_*.dylib
+/libprism_*.so
+/javafx_*.dll
+/libjavafx_*.dylib
+/libjavafx_*.so

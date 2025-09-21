@@ -1,0 +1,28 @@
+# Keep Linux ARM64 native libraries
+# Skiko (Compose Multiplatform) native libraries
+!/libskiko-linux-arm64.so
+skiko-windows-*.dll
+libskiko-macos-*.dylib
+libskiko-linux-*.so
+skiko-*.dll
+libskiko-*.dylib
+libskiko-*.so
+
+# SQLite native libraries
+!/org/sqlite/native/Linux/aarch64
+org/sqlite/native
+
+# General native library patterns
+!*linux-arm64*
+!*linux*arm64*
+*default*
+*mac-x64*
+*mac-arm64*
+*win-x64*
+*win-arm64*
+*linux-x64*
+*windows*
+*.dll
+*macos*
+*darwin*
+*.dylib
