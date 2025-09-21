@@ -25,3 +25,7 @@ The app uses the following multiplatform dependencies in its implementation:
 - [Koin](https://github.com/InsertKoinIO/koin) for dependency injection
 
 > These are just some of the possible libraries to use for these tasks with Kotlin Multiplatform, and their usage here isn't a strong recommendation for these specific libraries over the available alternatives. You can find a wide variety of curated multiplatform libraries in the [kmp-awesome](https://github.com/terrakok/kmp-awesome) repository.
+
+## Desktop Distribution
+
+This project is configured for [jDeploy](https://www.jdeploy.com) to create native desktop installers for Windows, macOS, and Linux. See [JDEPLOY.md](JDEPLOY.md) for setup details and distribution instructions.

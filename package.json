@@ -12,10 +12,10 @@
     "javafx": false,
     "title": "KMP App Template",
     "platformBundlesEnabled": true,
-    "jar": "composeApp/build/libs/composeApp-all.jar",
+    "jar": "composeApp/build/compose/jars/composeApp-desktop-1.0.jar",
     "buildCommand": [
       "./gradlew",
-      ":composeApp:buildExecutableJar"
+      ":composeApp:packageUberJarForCurrentOS"
     ]
   },
   "dependencies": {

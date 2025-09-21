@@ -126,8 +126,8 @@ dependencies {
 }
 
 tasks.register("buildExecutableJar") {
-    dependsOn("createDistributable")
+    dependsOn("packageUberJarForCurrentOS")
     doLast {
-        println("Built executable JAR and distributions")
+        println("Built executable JAR: composeApp/build/compose/jars/composeApp-desktop-1.0.jar")
     }
 }
