@@ -1,0 +1,32 @@
+{
+  "bin": {"kmp-app-template": "jdeploy-bundle/jdeploy.js"},
+  "author": "JetBrains",
+  "description": "Kotlin Multiplatform App Template - Desktop application built with Compose Multiplatform",
+  "main": "index.js",
+  "preferGlobal": true,
+  "repository": "https://github.com/shannah/kmp-app-template",
+  "version": "1.0.0",
+  "jdeploy": {
+    "jdk": false,
+    "javaVersion": "11",
+    "javafx": false,
+    "title": "KMP App Template",
+    "platformBundlesEnabled": true,
+    "jar": "composeApp/build/libs/composeApp-all.jar",
+    "buildCommand": [
+      "./gradlew",
+      ":composeApp:buildExecutableJar"
+    ]
+  },
+  "dependencies": {
+    "command-exists-promise": "^2.0.2",
+    "node-fetch": "2.6.7",
+    "tar": "^4.4.8",
+    "yauzl": "^2.10.0",
+    "shelljs": "^0.8.4"
+  },
+  "license": "Apache-2.0",
+  "name": "kmp-app-template",
+  "files": ["jdeploy-bundle"],
+  "scripts": {"test": "echo \"Error: no test specified\" && exit 1"}
+}
